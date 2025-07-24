@@ -1,1 +1,2 @@
 # P32_Javohir_Begmurotov_3
+# P32_Javohir_Begmurotov_3variant

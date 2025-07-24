@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!--<h1>Hello</h1>-->
+<!--<h1>{{blog.title}}</h1>-->
+{% for blog in blogs %}
+<h1>{{blog.title}}</h1>
+<p>{{ blog.amount}}</p>
+{% endfor %}
+
+{% endblock %}

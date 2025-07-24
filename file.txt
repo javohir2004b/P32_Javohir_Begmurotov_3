@@ -1,0 +1,15 @@
+1 pip install django
+2 django-admin startproject config .
+3 python manage.py runserver
+4 python manage.py startapp blog
+5 python manage.py migrate
+6 python manage.py createsuperuser
+7 modelsga blog yozgandan keyin yani modelsga app qoshganda
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py runserver
+
+8 db sqlite bazani ulaymiz
+9 blogdan urls.py python fayl ochamiz
+10 templates va ichidan blog ochamiz
+11 templatesga shuni yozammiz settingsni ichidan  'os.path.join(BASE_DIR, 'templates')'
